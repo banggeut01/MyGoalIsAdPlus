@@ -3,11 +3,13 @@
 # visit : list 0 ~ 40
 # horse : list 0~3 (말4개) 값은 현재 위치
 def back(k, total):
+    global MAX
+    MAX = max(MAX, total)
     if k == 10:
-        global MAX
-        if MAX < total:
-            print(tmpList)
-        MAX = max(MAX, total)
+        # global MAX
+        # if MAX < total:
+            # print(tmpList)
+        # MAX = max(MAX, total)
         return
 
     for i in range(4): # i 번 말 움직이자
@@ -17,13 +19,13 @@ def back(k, total):
             while n > 0:
                 if score[new] == 40:
                     tmp = horse[i]
-                    visit[tmp] = False
+                    visit[score[tmp]] = False
                     horse[i] = -1
                     tmpList.append(i)
                     back(k + 1, total)
                     tmpList.pop()
                     horse[i] = tmp
-                    visit[tmp] = True
+                    visit[score[tmp]] = True
                     break
                 else:
                     new += 1
@@ -36,15 +38,15 @@ def back(k, total):
                 elif new == 15:
                     new = 36
                 # print(new)
-                if not visit[new]:
+                if not visit[score[new]]:
                     tmp = horse[i]
-                    visit[tmp], visit[new] = False, True
+                    visit[score[tmp]], visit[score[new]] = False, True
                     horse[i] = new
                     tmpList.append(i)
                     back(k + 1, total + score[new])
                     tmpList.pop()
                     horse[i] = tmp
-                    visit[tmp], visit[new] = True, False
+                    visit[score[tmp]], visit[score[new]] = True, False
 
 score = [0, 2, 4, 6, 8, 10, 12, 14, 16, 18,
          20, 22, 24, 26, 28, 30, 32, 34, 36, 38,
