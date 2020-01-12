@@ -3,13 +3,13 @@
 # visit : list 0 ~ 40
 # horse : list 0~3 (말4개) 값은 현재 위치
 def back(k, total):
-    global MAX
-    MAX = max(MAX, total)
+    # global MAX
+    # MAX = max(MAX, total)
     if k == 10:
-        # global MAX
-        # if MAX < total:
-            # print(tmpList)
-        # MAX = max(MAX, total)
+        global MAX
+        if MAX < total:
+            print(tmpList)
+        MAX = max(MAX, total)
         return
 
     for i in range(4): # i 번 말 움직이자
