@@ -110,3 +110,4 @@
 
 * [1860. 진기의 최고급 붕어빵](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5LsaaqDzYDFAXc)
   * [소스](./swea/1860.py)
+
