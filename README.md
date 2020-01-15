@@ -1,6 +1,8 @@
 # 알고리즘 스터디
 
-## 2020.1.7 - 1.12 백준
+## 1주차
+
+> 2020.1.7 - 1.13 백준
 
 [1월 7일 17822 원판 돌리기](./baek/17822.py)
 [1월 8일 17837 새로운 게임 2](./baek/17837.py)
@@ -72,4 +74,39 @@
 * 풀이
 
   * 처음부터 100*100 리스트 선언하였다.
-  * 
+  
+* 지영 방법
+
+  ```python
+  # BFS 부분
+  		while tmp: # tmp Queue
+              sec += 1 # sec 경과 시간
+              if sec >= MIN: # 가지치기
+                  return
+              # ======== tmp 길이만큼 ========
+              for _ in range(len(tmp)):
+                  x, y = tmp.popleft()
+                  for k in range(4):
+                      tx, ty = x + dx[k], y + dy[k]
+                      if -1 < tx < N and -1 < ty < N and board[tx][ty] != 1 and not visit[tx][ty]:
+                          tmp.append((tx, ty))
+                          visit[tx][ty] = 1
+                          # cnt에 바이러스가 퍼진 방 개수 세기
+                          if not board[tx][ty]:
+                              cnt += 1
+              # 빈 방의 개수와 바이러스가 퍼진 방 개수가 같으면 return
+              if room == cnt: # room 초기 빈방 개수
+                  MIN = min(MIN, sec)
+                  return
+          return
+  ```
+
+  * D 거리 배열을 사용하지 않고 sec 시간 단위로 BFS를 수행한다.
+  * 또한 가지치기를 수행하였다.
+
+## 2주차
+
+> 2020.01.14 - 2020.01.20
+
+* [1860. 진기의 최고급 붕어빵](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5LsaaqDzYDFAXc)
+  * [소스](./swea/1860.py)
