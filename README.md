@@ -111,3 +111,11 @@
 * [1860. 진기의 최고급 붕어빵](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5LsaaqDzYDFAXc)
   * [소스](./swea/1860.py)
 
+* [17144. 미세먼지 안녕! ](https://www.acmicpc.net/problem/17144)
+  * [소스](./baek/17144.py)
+
+* [6808. 규영이와 인영이의 카드게임](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWgv9va6HnkDFAW0&categoryId=AWgv9va6HnkDFAW0&categoryType=CODE)
+  * [소스](./swea/6808.py)
+  * 파이썬 불가
+* [16985 Maaaaaaaaaze](https://www.acmicpc.net/problem/16985)
+  * [소스](./baek/16985.py)
