@@ -119,3 +119,6 @@
   * 파이썬 불가
 * [16985 Maaaaaaaaaze](https://www.acmicpc.net/problem/16985)
   * [소스](./baek/16985.py)
+
+* [17143. 낚시왕](https://www.acmicpc.net/problem/17143)
+  * [소스](./beak/17143.py)
