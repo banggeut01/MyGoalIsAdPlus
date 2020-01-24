@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65022d25-4c91-4d4e-9016-f920b46b1808" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/MyGoalIsAdPlus.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MyGoalIsAdPlus.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baek/17472.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/swea/1824.py" beforeDir="false" afterPath="$PROJECT_DIR$/swea/1824.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +36,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.1824">
+  <component name="RunManager" selected="Python.17472">
     <configuration name="16985" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MyGoalIsAdPlus" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -81,6 +79,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="17472" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MyGoalIsAdPlus" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/baek" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baek/17472.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="1824" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MyGoalIsAdPlus" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -94,27 +113,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/swea/1824.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="6808" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="MyGoalIsAdPlus" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/swea" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/swea/6808.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -145,19 +143,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.6808" />
       <item itemvalue="Python.16985" />
       <item itemvalue="Python.teat" />
       <item itemvalue="Python.17143" />
       <item itemvalue="Python.1824" />
+      <item itemvalue="Python.17472" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.17472" />
         <item itemvalue="Python.1824" />
         <item itemvalue="Python.17143" />
         <item itemvalue="Python.teat" />
         <item itemvalue="Python.16985" />
-        <item itemvalue="Python.6808" />
       </list>
     </recent_temporary>
   </component>
@@ -191,46 +189,50 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1156" y="149" key="#16985/0.0.1920.1040@0.0.1920.1040" timestamp="1579348731727" />
-    <state width="930" height="385" key="GridCell.Tab.0.bottom" timestamp="1579533518191">
+    <state width="930" height="359" key="GridCell.Tab.0.bottom" timestamp="1579874590861">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="930" height="385" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579533518191" />
-    <state width="930" height="385" key="GridCell.Tab.0.center" timestamp="1579533518191">
+    <state width="930" height="359" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579874590861" />
+    <state width="930" height="359" key="GridCell.Tab.0.center" timestamp="1579874590861">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="930" height="385" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579533518191" />
-    <state width="930" height="385" key="GridCell.Tab.0.left" timestamp="1579533518191">
+    <state width="930" height="359" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579874590861" />
+    <state width="930" height="359" key="GridCell.Tab.0.left" timestamp="1579874590859">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="930" height="385" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579533518191" />
-    <state width="930" height="385" key="GridCell.Tab.0.right" timestamp="1579533518191">
+    <state width="930" height="359" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579874590859" />
+    <state width="930" height="359" key="GridCell.Tab.0.right" timestamp="1579874590861">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="930" height="385" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579533518191" />
-    <state width="930" height="385" key="GridCell.Tab.1.bottom" timestamp="1579533518191">
+    <state width="930" height="359" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579874590861" />
+    <state width="930" height="385" key="GridCell.Tab.1.bottom" timestamp="1579874465490">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="930" height="385" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579533518191" />
-    <state width="930" height="385" key="GridCell.Tab.1.center" timestamp="1579533518191">
+    <state width="930" height="385" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579874465490" />
+    <state width="930" height="385" key="GridCell.Tab.1.center" timestamp="1579874465490">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="930" height="385" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579533518191" />
-    <state width="930" height="385" key="GridCell.Tab.1.left" timestamp="1579533518191">
+    <state width="930" height="385" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579874465490" />
+    <state width="930" height="385" key="GridCell.Tab.1.left" timestamp="1579874465490">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="930" height="385" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579533518191" />
-    <state width="930" height="385" key="GridCell.Tab.1.right" timestamp="1579533518191">
+    <state width="930" height="385" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579874465490" />
+    <state width="930" height="385" key="GridCell.Tab.1.right" timestamp="1579874465490">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="930" height="385" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579533518191" />
+    <state width="930" height="385" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579874465490" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1579532142818">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1579532142818" />
-    <state x="657" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1579532138653">
+    <state x="657" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1579872176992">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="657" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579532138653" />
+    <state x="657" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579872176992" />
+    <state x="1096" y="190" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1579873784541">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1096" y="190" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1579873784541" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -309,6 +311,11 @@
           <url>file://$PROJECT_DIR$/swea/1824.py</url>
           <line>5</line>
           <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/baek/17472.py</url>
+          <line>56</line>
+          <option name="timeStamp" value="29" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
