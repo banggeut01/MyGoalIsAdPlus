@@ -15,7 +15,7 @@ def getBridge(x, y, s):
         x, y = initX, initY
         while -1 < x + dx < N and -1 < y + dy < M and not board[x + dx][y + dy]:
             x, y, cnt = x + dx, y + dy, cnt + 1
-        if -1 < x + dx < N and -1 < y + dy < M and cnt >= 2:
+        if -1 < x + dx < N and -1 < y + dy < M and cnt >= 2 and s != board[x + dx][y + dy]:
             e = board[x + dx][y + dy]
             ns, ne = min(s, e), max(s, e)
             if bridge.get((ns, ne)):
@@ -56,14 +56,21 @@ if len(blist) >= sumCnt - 1:
     total += w
     picked = 1
     # print(w)
-    if sumCnt > 2:
-        for idx in range(1, len(blist)):
+    for _ in range(len(blist)):
+        for idx in range(len(blist)):
             w, s, e = blist[idx]
             if (selected[s] == True and selected[e] == False) or (selected[s] == False and selected[e] == True):
                 selected[s] = selected[e] = True
                 total += w
                 picked += 1
                 # print(w)
-            if picked == sumCnt: break
-    MIN = total
+                # print(blist[idx])
+                break
+        if picked == sumCnt - 1:
+            MIN = total
+            break
+# print(blist)
+# import pprint
+# pprint.pprint(board)
+# print(board)
 print(MIN)
