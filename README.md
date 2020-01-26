@@ -157,3 +157,37 @@ correct answer: -1
 
 
 다리 연결하는 부분 인접행렬로도 만들어보기
+
+
+
+
+
+### 2105. [모의 SW 역량테스트] 디저트 카페
+
+함수를 만들지 않아 복붙하다보니 생긴 실수로 1시간 이상 지체되었음
+
+수정전 수정후
+
+```python
+if isPossible(nx, ny):
+    tmp.append(board[nx][ny])
+    visit[board[nx][ny]] = True
+    
+if isPossible(nx, ny):
+    tmp.append(board[nx][ny])
+    visit[board[nx][ny]] = True
+```
+
+1)결과값을 출력해보았을 때 `visit`에 False 표시가 잘 안된 것을 확인할 수 있었는데,
+
+바로 False를 하는 부분을 중점적으로 보았다면 오래걸리지 않았을 것이다.
+
+또한, 함수를 사용하는 습관을 길러야겠다...
+
+2)복붙해서 쓴 함수 유의해서 보기!
+
+
+
+디저트 카페 다른방법
+
+up, down을 미리 정해두고 하는 방법을 해보자!
