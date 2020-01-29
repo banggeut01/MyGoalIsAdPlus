@@ -1,6 +1,6 @@
 # 알고리즘 스터디
 
-## 1주차
+# 1주차
 
 > 2020.1.7 - 1.13 백준
 
@@ -104,7 +104,7 @@
   * D 거리 배열을 사용하지 않고 sec 시간 단위로 BFS를 수행한다.
   * 또한 가지치기를 수행하였다.
 
-## 2주차
+# 2주차
 
 > 2020.01.14 - 2020.01.20
 
@@ -191,3 +191,24 @@ if isPossible(nx, ny):
 디저트 카페 다른방법
 
 up, down을 미리 정해두고 하는 방법을 해보자!
+
+# 4주차
+
+![:heavy_check_mark:](https://a.slack-edge.com/production-standard-emoji-assets/10.2/google-medium/2714-fe0f@2x.png)백준
+
+1. [Puyo Puyo](./baek/11559.py) [문제](https://www.acmicpc.net/problem/11559)
+
+2. [두 동전](./baek/16197.py) [문제](https://www.acmicpc.net/problem/16197)
+
+   * 백트래킹이 힘들듯하다. ([백트래킹 미완성코드](./baek/16197_fail.py))
+   * 10번밖에 안되니 순열로 풀어보기!
+
+   
+
+3. [탈출] [문제](https://www.acmicpc.net/problem/3055)
+
+![:heavy_check_mark:](https://a.slack-edge.com/production-standard-emoji-assets/10.2/google-medium/2714-fe0f@2x.png)SWEA
+
+4. 2212 [모의 SW 역량테스트] 보호 필름
+5. 5650 [모의 SW 역량테스트] 핀볼 게임
+6. 2117 [모의 SW 역량테스트] 홈 방범 서비스

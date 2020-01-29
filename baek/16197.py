@@ -20,12 +20,16 @@ def back(k):
         # loc[0]이 무조건 위, 왼쪽
         dx, dy = dir[idx]
         s, e, d = 0, 1, 1
-        f1, f2 = False, False
+        f = 0
         if idx == 0 or idx == 3:
             e, s, d = 0, 1, -1
         for i in range(s, e + d, d):
             nx, ny = loc[i][0], loc[i][1]
-            if -1 < nx <
+            if -1 < nx < N and -1 < ny < M:
+                if
+            else:
+                board[nx][ny], board[x][y] = '.'
+                f += 1
         
 
     if k == 10: return
