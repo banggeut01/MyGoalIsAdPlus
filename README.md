@@ -209,7 +209,9 @@ up, down을 미리 정해두고 하는 방법을 해보자!
      * visit 체크!
      * visit 체크하려니 처음부터 다시 풀어야할듯...
 
-   
+   * 해결
+     * 답은 BFS 였다.
+     * 
 
 3. [탈출] [문제](https://www.acmicpc.net/problem/3055)
 
