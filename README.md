@@ -239,6 +239,6 @@ up, down을 미리 정해두고 하는 방법을 해보자!
 
 ![:heavy_check_mark:](https://a.slack-edge.com/production-standard-emoji-assets/10.2/google-medium/2714-fe0f@2x.png)SWEA
 
-4. 2212 [모의 SW 역량테스트] 보호 필름
-5. 5650 [모의 SW 역량테스트] 핀볼 게임
-6. 2117 [모의 SW 역량테스트] 홈 방범 서비스
+4. [2212 [모의 SW 역량테스트] 보호 필름]
+5. [5650 [모의 SW 역량테스트] 핀볼 게임]
+6. [2117 [모의 SW 역량테스트] 홈 방범 서비스](./swea/2117.py)
