@@ -400,8 +400,27 @@
 
 :heavy_check_mark: 백준
 
-* [2529. 부등호]() / [문제](https://www.acmicpc.net/problem/2529)
-* [3987. 보이저 1호]() / [문제](https://www.acmicpc.net/problem/3987)
+* [2529. 부등호](./baek/2529.py) / [문제](https://www.acmicpc.net/problem/2529)
+
+  * 틀렸습니다.
+
+    * MIN 값 초기화를 잘못했다.
+
+      ```python
+      >>> 0xffffff
+      16777215 # 98765432보다 작다.
+      ```
+
+      아래와 같이 초기화
+
+      ```python
+      MAX, MIN = 0, 9999999999
+      ```
+
+      
+
+* [3987. 보이저 1호](./baek/3987.py) / [문제](https://www.acmicpc.net/problem/3987)
+
 * [2174. 로봇 시뮬레이션]() / [문제](https://www.acmicpc.net/problem/2174)![:heavy_check_mark:](https://a.slack-edge.com/production-standard-emoji-assets/10.2/google-medium/2714-fe0f@2x.png)SWEA
 
 :heavy_check_mark: SWEA
