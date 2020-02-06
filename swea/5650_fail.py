@@ -15,7 +15,7 @@ def go(initX, initY, d):
         if -1 < nx < N and -1 < ny < N:
             # print(nx, ny, initX, initY)
             tmp.append((nx, ny, initX, initY))
-            # print(tmp)
+            print(tmp)
             num = board[nx][ny]
             if not num:
                 if nx == initX and ny == initY:
@@ -33,12 +33,8 @@ def go(initX, initY, d):
                 MAX = max(MAX, cnt)
                 return
         else:
-            MAX = max(MAX, cnt * 2 + 1)
-            return
-            # d = dirDict[(d, 5)]
-            # if 5 < board[x][y]: x, y = hall[(board[x][y], x, y)]
-            # elif 0 < board[x][y] < 6: d = dirDict[(d, board[x][y])]
-            # cnt += 1
+            d = dirDict[(d, 5)]
+            cnt += 1
 
 xy = [(-1, 0), (1, 0), (0, -1), (0, 1)] #0123 상하좌우
 dirDict = { (0, 1): 1, (1, 1): 3, (2, 1): 0, (3, 1): 2,
@@ -46,9 +42,8 @@ dirDict = { (0, 1): 1, (1, 1): 3, (2, 1): 0, (3, 1): 2,
             (0, 3): 2, (1, 3): 0, (2, 3): 3, (3, 3): 1,
             (0, 4): 1, (1, 4): 2, (2, 4): 3, (3, 4): 0,
             (0, 5): 1, (1, 5): 0, (2, 5): 3, (3, 5): 2}
-
+hall = dict()
 for tc in range(1, int(input()) + 1):
-    hall = dict()
     MAX = 0
     N = int(input())
     board = [list(map(int, input().split())) for _ in range(N)]
@@ -65,7 +60,7 @@ for tc in range(1, int(input()) + 1):
             # elif not board[i][j] and (i == 0 or i == N - 1 or j == 0 or j == N - 1):
             #     board[i][j] = 5
     # print(board)
-    # print(hall)
+
     # print(hall)
     # print(board)
     for i in range(N):
@@ -77,6 +72,6 @@ for tc in range(1, int(input()) + 1):
                         # go(5, 9, 2)
                         # go(2, 3, 3)
                         # go(4, 0, 2)
-                        # go(0, 2, 2)
-                        go(i, j, d)
+                        go(0, 2, 2)
+                        # go(i, j, d)
     print('#{} {}'.format(tc, MAX))
