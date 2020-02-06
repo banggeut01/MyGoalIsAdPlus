@@ -421,7 +421,7 @@
 
 * [3987. 보이저 1호](./baek/3987.py) / [문제](https://www.acmicpc.net/problem/3987)
 
-* [2174. 로봇 시뮬레이션]() / [문제](https://www.acmicpc.net/problem/2174)![:heavy_check_mark:](https://a.slack-edge.com/production-standard-emoji-assets/10.2/google-medium/2714-fe0f@2x.png)SWEA
+* [2174. 로봇 시뮬레이션]() / [문제](https://www.acmicpc.net/problem/2174)
 
 :heavy_check_mark: SWEA
 
