@@ -421,7 +421,39 @@
 
 * [3987. 보이저 1호](./baek/3987.py) / [문제](https://www.acmicpc.net/problem/3987)
 
-* [2174. 로봇 시뮬레이션]() / [문제](https://www.acmicpc.net/problem/2174)
+* [2174. 로봇 시뮬레이션](./baek/2174.py) / [문제](https://www.acmicpc.net/problem/2174)
+
+  * test case
+
+    ```
+    Input
+    5 4
+    2 2
+    1 4 E
+    5 4 W
+    1 F 3
+    2 F 1
+    
+    output
+    Robot 2 crashes into robot 1
+    
+    3 3
+    1 9
+    2 2 W
+    1 F 1
+    1 L 1
+    1 F 1
+    1 L 1
+    1 F 2
+    1 L 5
+    1 F 2
+    1 R 3
+    1 F 2
+    
+    정답 : OK
+    ```
+
+    
 
 :heavy_check_mark: SWEA
 
