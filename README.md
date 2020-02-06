@@ -1,6 +1,6 @@
 # 알고리즘 스터디
 
-# 1주차
+# :star: ​1주차
 
 > 2020.1.7 - 1.13 백준
 
@@ -29,8 +29,8 @@
 
   * 다른사람 방식
 
-1월 9일 게리맨더링 2
-[1월 10일 주사위 윷놀이](./baek/17825.py)
+[1월 9일 게리맨더링 2](./baek/17779.py) 다시 풀어보기!
+[1월 10일 주사위 윷놀이](./baek/17825.py) 아직 못풀었다!
 
 * 실수
 
@@ -104,30 +104,102 @@
   * D 거리 배열을 사용하지 않고 sec 시간 단위로 BFS를 수행한다.
   * 또한 가지치기를 수행하였다.
 
-# 2주차
+# :star: 2주차
 
 > 2020.01.14 - 2020.01.20
 
 * [1860. 진기의 최고급 붕어빵](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5LsaaqDzYDFAXc)
-  * [소스](./swea/1860.py)
-
+  
+* [소스](./swea/1860.py)
+  
 * [17144. 미세먼지 안녕! ](https://www.acmicpc.net/problem/17144)
-  * [소스](./baek/17144.py)
-
+  
+* [소스](./baek/17144.py)
+  
 * [6808. 규영이와 인영이의 카드게임](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWgv9va6HnkDFAW0&categoryId=AWgv9va6HnkDFAW0&categoryType=CODE)
   * [소스](./swea/6808.py)
   * 파이썬 불가
+  
 * [16985 Maaaaaaaaaze](https://www.acmicpc.net/problem/16985)
-  * [소스](./baek/16985.py)
-
+  
+* [소스](./baek/16985.py)
+  
 * [17143. 낚시왕](https://www.acmicpc.net/problem/17143)
+  
   * [소스](./beak/17143.py)
+  
+* [다리 만들기 2](https://www.acmicpc.net/problem/17472)
 
-다리 2 반례(https://www.acmicpc.net/board/view/41802)
+  * [소스](./baek/17472.py)
 
-무연이 방법
+  * 다리 2 반례(https://www.acmicpc.net/board/view/41802)
 
-반례1 어떻게서든 연결되지 않는 경우 - 조건추가
+    * 반례 1
+
+      * 어떻게서든 연결되지 않는 경우 - 조건추가
+
+      ```python
+      if picked == sumCnt - 1:
+          MIN = total
+          break
+      ```
+
+    * 반례 2
+
+      * 같은 섬 연결하는 다리 만들어진경우
+
+      ```
+      [(2, 1, 1), (2, 1, 4), (2, 3, 5), (2, 4, 5), (2, 5, 5), (2, 5, 6), (3, 1, 5)]
+      [[0, 0, 1, 1, 1, 1, 1, 0],
+       [1, 1, 1, 1, 1, 1, 0, 2],
+       [0, 0, 0, 1, 0, 1, 0, 0],
+       [3, 3, 0, 1, 1, 0, 4, 4],
+       [0, 0, 1, 1, 0, 4, 4, 0],
+       [0, 5, 0, 0, 0, 0, 0, 0],
+       [5, 5, 5, 5, 0, 0, 6, 0],
+       [5, 0, 0, 5, 5, 5, 0, 0],
+       [5, 5, 0, 0, 0, 5, 5, 5],
+       [5, 5, 5, 0, 0, 5, 0, 5]]
+      output: 10
+      correct answer: -1
+      ```
+
+      
+
+  * 무연이 방법 :100: (**엄청나게 쉬운 최소신장트리**)
+
+    * Prim
+
+      * 제일 최소 가중치를 가진 다리를 선택한다.
+      * 현재 선택된 간선 중 제일 작은 가중치 다리를 선택한다.
+      * 싸이클을 만들지 않도록 위를 반복한다.
+      * 싸이클을 판별하는 방법이 신박하였다. 
+
+      ```
+      정점 1 2 3 4 5
+      선택 0 0 0 0 0
+      
+      (초기)
+      정점 5개중 정점 3, 4를 잇는 최소가중치 간선을 선택하였다.
+      선택한 정점은 1로 바뀐다.
+      정점 1 2 3 4 5
+      선택 0 0 1 1 0
+      
+      (반복)
+      3, 4에 연결된 간선 중 최소 간선(정점 1-3)을 선택한다.
+      정점 1 2 3 4 5
+      선택 1 0 1 1 0
+      이때 싸이클인지 아닌지 구별하는 방법은
+      간선을 선택할 때 선택 0/ 선택 1 조합을 선택해야한다.
+      선택 1을 두개 선택한다면 싸이클이 되기 때문이다.
+      정말 신박하다
+      
+      모두 다 선택하고 끝!
+      ```
+
+      
+
+반례1 
 
 ```python
         if picked == sumCnt - 1:
@@ -135,64 +207,46 @@
             break
 ```
 
-반례2 같은 섬 연결하는 다리 만들어진경우
+# :star: 3주차
 
-```python
-[(2, 1, 1), (2, 1, 4), (2, 3, 5), (2, 4, 5), (2, 5, 5), (2, 5, 6), (3, 1, 5)]
-[[0, 0, 1, 1, 1, 1, 1, 0],
- [1, 1, 1, 1, 1, 1, 0, 2],
- [0, 0, 0, 1, 0, 1, 0, 0],
- [3, 3, 0, 1, 1, 0, 4, 4],
- [0, 0, 1, 1, 0, 4, 4, 0],
- [0, 5, 0, 0, 0, 0, 0, 0],
- [5, 5, 5, 5, 0, 0, 6, 0],
- [5, 0, 0, 5, 5, 5, 0, 0],
- [5, 5, 0, 0, 0, 5, 5, 5],
- [5, 5, 5, 0, 0, 5, 0, 5]]
-output: 10
-correct answer: -1
+* [1953. [모의 SW 역량테스트] 탈주범 검거](./swea/1953.py) / [문제](https://swexpertacademy.com/main/learn/course/lectureProblemViewer.do)
 
-```
+* [2105. [모의 SW 역량테스트] 디저트 카페](./swea/2105.py) / [문제](https://swexpertacademy.com/main/learn/course/lectureProblemViewer.do)
 
+  * 함수를 만들지 않아 복붙하다보니 생긴 실수로 1시간 이상 지체되었음 
 
+    * 실수를 줄이려면! :eyes: 
 
-다리 연결하는 부분 인접행렬로도 만들어보기
+      ```python
+      if isPossible(nx, ny):
+          tmp.append(board[nx][ny])
+          visit[board[ny][ny]] = True
+          
+      if isPossible(nx, ny):
+          tmp.append(board[nx][ny])
+          visit[board[nx][ny]] = True
+      ```
 
+    * 결과값을 출력해보았을 때 `visit`에 False 표시가 잘 안된 것을 확인할 수 있었는데,
 
+      바로 False 처리 부분을 중점적으로 보았다면 오래걸리지 않았을 것이다.
 
+      또한, 함수를 사용하는 습관을 길러야겠다!
 
+    * **복붙해서 쓴 함수 유의해서 보기!**
 
-### 2105. [모의 SW 역량테스트] 디저트 카페
+  * 다른 정답에 비해 시간이 더 걸리는 편이다.
 
-함수를 만들지 않아 복붙하다보니 생긴 실수로 1시간 이상 지체되었음
-
-수정전 수정후
-
-```python
-if isPossible(nx, ny):
-    tmp.append(board[nx][ny])
-    visit[board[nx][ny]] = True
-    
-if isPossible(nx, ny):
-    tmp.append(board[nx][ny])
-    visit[board[nx][ny]] = True
-```
-
-1)결과값을 출력해보았을 때 `visit`에 False 표시가 잘 안된 것을 확인할 수 있었는데,
-
-바로 False를 하는 부분을 중점적으로 보았다면 오래걸리지 않았을 것이다.
-
-또한, 함수를 사용하는 습관을 길러야겠다...
-
-2)복붙해서 쓴 함수 유의해서 보기!
+    * 한개씩 옮겨가며 백트래킹을 하였다.
+    * 백트래킹 코드를 짤 때 어려움을 많이 느끼는 편이다.
+    * 따라서 백트래킹을 하기 전에 이전 상태로 되돌려야 하는 과정이 까다로운지 따져보고 코딩하자!
+    * 또한 백트래킹 진행시 너무 작은 크기로 진행한다면 미리 정할 수 있는 값이 있는지 찾아보고, 백트래킹이 아닌 한꺼번에 처리하도록 한다.
+    * 이 문제에서는 두 변의 길이(up, down)를 먼저 정할 수 있다.
+    * 이 때, 백트래킹을 쓰지 않아도 된다.
 
 
 
-디저트 카페 다른방법
-
-up, down을 미리 정해두고 하는 방법을 해보자!
-
-# 4주차
+# :star: 4주차
 
 ![:heavy_check_mark:](https://a.slack-edge.com/production-standard-emoji-assets/10.2/google-medium/2714-fe0f@2x.png)백준
 
@@ -339,3 +393,20 @@ up, down을 미리 정해두고 하는 방법을 해보자!
    * 승열 방법
      * 범위 안에 있는지 없는지 검사할 때는 중심 좌표 x, y와 k값만 알면 알 수 있다.
      * **집과 중심과의 거리**를 구하면 된다.
+
+# :star: 5주차
+
+> 02.04 ~ 02.10 
+
+:heavy_check_mark: 백준
+
+* [2529. 부등호]() / [문제](https://www.acmicpc.net/problem/2529)
+* [3987. 보이저 1호]() / [문제](https://www.acmicpc.net/problem/3987)
+* [2174. 로봇 시뮬레이션]() / [문제](https://www.acmicpc.net/problem/2174)![:heavy_check_mark:](https://a.slack-edge.com/production-standard-emoji-assets/10.2/google-medium/2714-fe0f@2x.png)SWEA
+
+:heavy_check_mark: SWEA
+
+* [5648. [모의 SW 역량테스트] 원자 소멸 시뮬레이션]() 
+* [2382. [모의 SW 역량테스트] 미생물 격리]() 
+* [5644. [모의 SW 역량테스트] 무선 충전]() 
+
