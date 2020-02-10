@@ -460,6 +460,30 @@
 * [5648. [모의 SW 역량테스트] 원자 소멸 시뮬레이션](./swea/5648.py) 
   * bfs로 풀어보겠다
   * 
+  
 * [2382. [모의 SW 역량테스트] 미생물 격리](./swea/2382.py) 
+
 * [5644. [모의 SW 역량테스트] 무선 충전]() 
 
+  * 틀렸습니다.
+
+    ```python
+    # 수정전
+    if len(board[ax][ay]) and len(board[bx][by]):
+        for a in board[ax][ay]:
+            for b in board[bx][by]:
+                if a == b:
+                    tmp = max(tmp, P[a] // 2) # 실수
+                else:
+                    tmp = max(tmp, P[a] + P[b])
+                        # 수정후
+    if len(board[ax][ay]) and len(board[bx][by]):
+        for a in board[ax][ay]:
+            for b in board[bx][by]:
+                if a == b:
+                    tmp = max(tmp, P[a])
+                else:
+                    tmp = max(tmp, P[a] + P[b])
+    ```
+
+    
