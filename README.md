@@ -463,6 +463,33 @@
   
 * [2382. [모의 SW 역량테스트] 미생물 격리](./swea/2382.py) 
 
+  * 틀렸습니다.
+
+    ```python
+    # 수정전
+    for i in board[x][y]:
+        if maxM != micro[i]:
+            die[i] = True
+            liveCnt -= 1
+            board[x][y].remove(i)
+            else:
+                micro[i] = tmp   
+    
+    # 수정후
+    dieTmp = []
+    for i in board[x][y]:
+        if maxM != micro[i]:
+            die[i] = True
+            liveCnt -= 1
+            dieTmp.append(i)
+            else:
+                micro[i] = tmp
+                for i in dieTmp:
+                    board[x][y].remove(i)
+    ```
+
+    * `board[x][y].remove(i)` 이런 명령어를 실행할 때 `for문` 에 영향을 미치지 않는지 꼭 확인하기!
+
 * [5644. [모의 SW 역량테스트] 무선 충전]() 
 
   * 틀렸습니다.
