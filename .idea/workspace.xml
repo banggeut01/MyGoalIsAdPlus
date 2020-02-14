@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65022d25-4c91-4d4e-9016-f920b46b1808" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/swea/5656.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swea/5656input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/swea/5658.py" beforeDir="false" afterPath="$PROJECT_DIR$/swea/5658.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,70 +18,49 @@
     <session id="-172717485">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="26" />
+          <entry key="project.closed" value="28" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="13" />
           <entry key="project.open.time.4" value="6" />
           <entry key="project.open.time.5" value="3" />
-          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="2" />
-          <entry key="project.opened" value="27" />
+          <entry key="project.opened" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="1953input" value="1" />
           <entry key="5644" value="1" />
-          <entry key="py" value="31" />
-          <entry key="txt" value="4" />
+          <entry key="py" value="32" />
+          <entry key="txt" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="6" />
-          <entry key="Python" value="31" />
+          <entry key="PLAIN_TEXT" value="7" />
+          <entry key="Python" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="1953input" value="1" />
           <entry key="Python Console" value="1065" />
-          <entry key="py" value="30227" />
+          <entry key="py" value="31984" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="31292" />
+          <entry key="Python" value="33049" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/baek/3987.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
-              <folding>
-                <marker date="1580969494143" expanded="true" signature="59:64" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/baek/2174.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/swea/5648.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -102,13 +82,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/swea/5658.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
+            <state relative-caret-position="399">
               <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/swea/5656.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-242">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
+              <folding>
+                <marker date="1581638428471" expanded="true" signature="109:1672" ph="..." />
+                <marker date="1581638428471" expanded="true" signature="1687:1692" ph="..." />
+                <marker date="1581638428471" expanded="true" signature="1687:1884" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/swea/5656input.txt">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -169,6 +168,7 @@
       <find>True</find>
       <find>cnt</find>
       <find>print</find>
+      <find>board</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -200,13 +200,14 @@
         <option value="$PROJECT_DIR$/swea/5648.py" />
         <option value="$PROJECT_DIR$/swea/2383.py" />
         <option value="$PROJECT_DIR$/swea/5658.py" />
+        <option value="$PROJECT_DIR$/swea/5656.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="951" />
-    <option name="width" value="978" />
-    <option name="height" value="1039" />
+    <option name="x" value="952" />
+    <option name="width" value="977" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectId" id="1WZEErqg88IQ3rClgm8E7PA78JU" />
   <component name="ProjectView">
@@ -251,6 +252,9 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\multicampus\Desktop\genie\MyGoalIsAdPlus\swea" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\multicampus\Desktop\genie\MyGoalIsAdPlus\swea" />
       <recent name="C:\Users\박진희\Desktop\genie\MyGoalIsAdPlus\swea" />
@@ -268,7 +272,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.5658">
+  <component name="RunManager" selected="Python.5656">
     <configuration name="2382" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MyGoalIsAdPlus" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -311,27 +315,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="5644" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="MyGoalIsAdPlus" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/swea" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/swea/5644.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="5648" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MyGoalIsAdPlus" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -345,6 +328,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/swea/5648.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="5656" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MyGoalIsAdPlus" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/swea" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/swea/5656.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -376,18 +380,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.5648" />
-      <item itemvalue="Python.5644" />
       <item itemvalue="Python.2382" />
       <item itemvalue="Python.2383" />
       <item itemvalue="Python.5658" />
+      <item itemvalue="Python.5656" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.5656" />
         <item itemvalue="Python.5658" />
         <item itemvalue="Python.2383" />
         <item itemvalue="Python.5648" />
         <item itemvalue="Python.2382" />
-        <item itemvalue="Python.5644" />
       </list>
     </recent_temporary>
   </component>
@@ -426,15 +430,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="761" y="0" width="782" height="831" extended-state="0" />
+    <frame x="762" y="0" width="781" height="830" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49210528" visible="true" weight="0.19060403" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49210528" visible="true" weight="0.19086021" />
       <window_info id="Structure" order="1" sideWeight="0.50789475" side_tool="true" weight="0.060281314" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3275862" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32137734" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3204023" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.38649425" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -708,17 +712,55 @@
           <line>7</line>
           <option name="timeStamp" value="86" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/swea/5656.py</url>
+          <line>58</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/swea/5656.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/swea/5656.py</url>
+          <line>62</line>
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/swea/5656.py</url>
+          <line>57</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
         <watch expression="atom" language="Python" />
+        <watch expression="N" language="Python" />
         <watch expression="tmp" language="Python" />
+        <watch expression="weq" language="Python" />
+        <watch expression="seq" language="Python" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>N</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>seq</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>weq</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>tmp</expression-string>
         <language-id>Python</language-id>
@@ -751,21 +793,6 @@
       </expression>
       <expression>
         <expression-string>li</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>visit</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>num</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>dq</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -1004,8 +1031,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/swea/5658.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
+        <state relative-caret-position="399">
           <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swea/5656input.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swea/5656.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-242">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <marker date="1581638428471" expanded="true" signature="109:1672" ph="..." />
+            <marker date="1581638428471" expanded="true" signature="1687:1692" ph="..." />
+            <marker date="1581638428471" expanded="true" signature="1687:1884" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
