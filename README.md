@@ -629,4 +629,31 @@
 
 [4130. [모의 SW 역량테스트] 특이한 자석](./swea/4130.py)
 [4131. [모의 SW 역량테스트] 활주로 건설](./swea/4131.py)
+
+* 현재 지형이 전보다 1개 높아졌거나 낮아졌을 경우에 그 위치만 검사하면 된다.
+
+* 틀렸습니다. (43/50)
+
+  * visit 체크하는 부분에서 빠뜨린 부분이 있었다.
+
+    ```python
+    def isPossible(x, y, d, prev):
+        dx, dy = d
+        visit[x][y] = True # --> 이 부분 추가하였음
+        for _ in range(X - 1):
+            x, y = x + dx, y + dy
+            if -1 < x < N and -1 < y < N and board[x][y] == prev and not visit[x][y]:
+                visit[x][y] = True
+            else: return False
+        return True
+    ```
+
+  * 활주로 건설 길이는 `X`인데 `X-1`길이만 검사하게 하였다.
+
+  * 이때 visit 체크를 `X`만큼 해야하는데 `X-1`만큼해서 오답이 되었다.
+
+  * visit 변수 사용시 이점을 주의하자!
+
+  * 어느 부분을 체크해야하는지 빠뜨린 부분은 없는지!
+
 [5653. [모의 SW 역량테스트] 줄기세포배양]
