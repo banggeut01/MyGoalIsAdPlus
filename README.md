@@ -676,9 +676,37 @@
 [백준 17281. 야구공](./baek/17281.py) / [문제](https://www.acmicpc.net/problem/17281)
 
 * 시간초과
-* 
+* 해결 놉!
 
 [백준 17136. 색종이 붙이기](./baek/17136.py) / [문제](https://www.acmicpc.net/problem/17136)
+
+* 시간초과
+
+  * 안써도 되는 `visit`를 썼음
+  * `board`값을 0(visit True) / 1(visit False) 로 바꾸는 것으로 업데이트 하였다.
+
+* 옛날 코드를 보면 속도가 훨씬 빠르다.
+
+  * `board`를 순회할 때 한칸씩 가면서 재귀를 호출하는게 아니라 for문으로 현재행부터 1인 `board[i][j]`값을 만나면 재귀를 호출하게 짰었다.
+
+  * [다시 짠 코드](./baek/17136_2.py) --> 시간 더 걸림... Why?? 
+
+    * flag의 역할
+
+      ```python
+      # 한 자리에 색종이 1 ~ 5 크기를 두고 난 후, for문을 계속 돌리면 안된다.
+      # 바로 return 시켜야함!
+      flag = False
+      for i in range(r, 10):
+          for j in range(10):
+              if board[i][j]:
+              #    ...
+              if flag: return
+      ```
+
+      
+
+  * [옛날 코드](https://github.com/banggeut01/algorithm/blob/master/code/A/17136.py)
 
 [프로그래머스 올바른 괄호] / [문제](https://programmers.co.kr/learn/courses/30/lessons/12929)
 
