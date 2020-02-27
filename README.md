@@ -672,3 +672,14 @@
     * 감소하는 수가 1,000,000 이하라는 뜻이 아니다.
     * `comp()`에서 재귀 종료 조건을 재귀깊이가 6일 때로 해주었다. # <- 잘못된 점
     * 위 조건 빼주는 것으로 해결!
+
+[백준 17281. 야구공](./baek/17281.py) / [문제](https://www.acmicpc.net/problem/17281)
+
+* 시간초과
+* 
+
+[백준 17136. 색종이 붙이기](./baek/17136.py) / [문제](https://www.acmicpc.net/problem/17136)
+
+[프로그래머스 올바른 괄호] / [문제](https://programmers.co.kr/learn/courses/30/lessons/12929)
+
+[프로그래머스 [2020카카오공채] 가사 검색] / [문제](https://programmers.co.kr/learn/courses/30/lessons/60060)
