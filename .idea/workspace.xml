@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65022d25-4c91-4d4e-9016-f920b46b1808" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/baek/17136.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baek/17136_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hack/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swea/5653.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swea/5653input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -15,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Python Unit Test" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -50,57 +51,15 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\multicampus\Desktop\genie\MyGoalIsAdPlus\swea" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\박진희\Desktop\genie\MyGoalIsAdPlus\swea" />
       <recent name="C:\Users\multicampus\Desktop\genie\MyGoalIsAdPlus\swea" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\multicampus\Desktop\genie\MyGoalIsAdPlus\swea" />
-    </key>
   </component>
-  <component name="RunManager" selected="Python.17136_2">
-    <configuration name="1038" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="MyGoalIsAdPlus" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/baek" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baek/1038.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="1062" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="MyGoalIsAdPlus" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/baek" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baek/1062.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.5653">
     <configuration name="17136" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MyGoalIsAdPlus" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -164,20 +123,62 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="5653" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MyGoalIsAdPlus" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/swea" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/swea/5653.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MyGoalIsAdPlus" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hack" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hack/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.1062" />
-      <item itemvalue="Python.1038" />
       <item itemvalue="Python.17281" />
       <item itemvalue="Python.17136" />
       <item itemvalue="Python.17136_2" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.5653" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.5653" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.17136_2" />
         <item itemvalue="Python.17136" />
         <item itemvalue="Python.17281" />
-        <item itemvalue="Python.1038" />
-        <item itemvalue="Python.1062" />
       </list>
     </recent_temporary>
   </component>
@@ -220,46 +221,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1156" y="149" key="#16985/0.0.1920.1040@0.0.1920.1040" timestamp="1579348731727" />
-    <state width="822" height="358" key="GridCell.Tab.0.bottom" timestamp="1582816740520">
+    <state width="936" height="357" key="GridCell.Tab.0.bottom" timestamp="1582898473881">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="822" height="358" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582816740520" />
-    <state width="822" height="358" key="GridCell.Tab.0.center" timestamp="1582816740519">
+    <state width="936" height="357" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582898473881" />
+    <state width="936" height="357" key="GridCell.Tab.0.center" timestamp="1582898473881">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="822" height="358" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582816740519" />
-    <state width="822" height="358" key="GridCell.Tab.0.left" timestamp="1582816740519">
+    <state width="936" height="357" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582898473881" />
+    <state width="936" height="357" key="GridCell.Tab.0.left" timestamp="1582898473881">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="822" height="358" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582816740519" />
-    <state width="822" height="358" key="GridCell.Tab.0.right" timestamp="1582816740520">
+    <state width="936" height="357" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582898473881" />
+    <state width="936" height="357" key="GridCell.Tab.0.right" timestamp="1582898473881">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="822" height="358" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582816740520" />
-    <state width="822" height="384" key="GridCell.Tab.1.bottom" timestamp="1582816715442">
+    <state width="936" height="357" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582898473881" />
+    <state width="936" height="380" key="GridCell.Tab.1.bottom" timestamp="1582894667128">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="822" height="384" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582816715442" />
-    <state width="822" height="384" key="GridCell.Tab.1.center" timestamp="1582816715442">
+    <state width="936" height="380" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582894667128" />
+    <state width="936" height="380" key="GridCell.Tab.1.center" timestamp="1582894667128">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="822" height="384" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582816715442" />
-    <state width="822" height="384" key="GridCell.Tab.1.left" timestamp="1582816715442">
+    <state width="936" height="380" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582894667128" />
+    <state width="936" height="380" key="GridCell.Tab.1.left" timestamp="1582894667127">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="822" height="384" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582816715442" />
-    <state width="822" height="384" key="GridCell.Tab.1.right" timestamp="1582816715442">
+    <state width="936" height="380" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582894667127" />
+    <state width="936" height="380" key="GridCell.Tab.1.right" timestamp="1582894667128">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="822" height="384" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582816715442" />
+    <state width="936" height="380" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582894667128" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1582633140832">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1582633140832" />
-    <state x="657" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1582633056929">
+    <state x="657" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1582856965238">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="657" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582633056929" />
+    <state x="657" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582856965238" />
     <state x="1096" y="190" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1579873784541">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -507,6 +508,16 @@
           <line>14</line>
           <option name="timeStamp" value="110" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/hack/test.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/hack/test.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -514,6 +525,7 @@
         <watch expression="board" language="Python" />
         <watch expression="MIN" language="Python" />
         <watch expression="NUM" language="Python" />
+        <watch expression="c" language="Python" />
       </configuration>
     </watches-manager>
   </component>
