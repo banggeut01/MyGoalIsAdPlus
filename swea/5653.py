@@ -8,14 +8,14 @@ def duplicate():
         tmp = dict()
         for key, val in queue.items():
             x, y = key
-            l, s, e = val # l:수명, s:활성화시간, e:죽는시간
-            if e > T and s <= T: # 번식
+            l, s, e = val  # l:수명, s:활성화시간, e:죽는시간
+            if e > T and s <= T:  # 번식
                 for dx, dy in (-1, 0), (1, 0), (0, -1), (0, 1):
                     nx, ny = x + dx, y + dy
                     if not queue.get((nx, ny)):
                         if tmp.get((nx, ny)):
-                             originL, t1, t2 = tmp[(nx, ny)]
-                             if originL < l: tmp[(nx, ny)] = (l, T + 1 + l, T + 1 + l * 2)
+                            originL, t1, t2 = tmp[(nx, ny)]
+                            if originL < l: tmp[(nx, ny)] = (l, T + 1 + l, T + 1 + l * 2)
                         else:
                             tmp[(nx, ny)] = (l, T + 1 + l, T + 1 + l * 2)
         # tmp --> queue에 추가
@@ -27,6 +27,7 @@ def duplicate():
         l, s, e = val
         if e > T: cnt += 1
     return cnt
+
 
 for tc in range(1, int(input()) + 1):
     N, M, K = map(int, input().split())

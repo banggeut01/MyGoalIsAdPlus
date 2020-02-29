@@ -656,7 +656,7 @@
 
   * 어느 부분을 체크해야하는지 빠뜨린 부분은 없는지!
 
-[5653. [모의 SW 역량테스트] 줄기세포배양](./swea/5653.py)
+[5653. [모의 SW 역량테스트] 줄기세포 배양](./swea/5653.py)
 
 
 
@@ -713,3 +713,6 @@
 [프로그래머스 올바른 괄호] / [문제](https://programmers.co.kr/learn/courses/30/lessons/12929)
 
 [프로그래머스 [2020카카오공채] 가사 검색] / [문제](https://programmers.co.kr/learn/courses/30/lessons/60060)
+
+# :star: 8주차
+
