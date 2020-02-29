@@ -716,3 +716,20 @@
 
 # :star: 8주차
 
+:heavy_check_mark: SWEA Python A 대비반
+
+[4008. [모의 SW 역량테스트] 숫자 만들기](./swea/4008.py)
+
+[1952. [모의 SW 역량테스트] 수영장](./swea/1952.py)
+
+- 
+    
+
+](./swea/4008.py)
+
+
+
+:heavy_check_mark: SWEA Python A+ 대비반
+
+[4008. [모의 SW 역량테스트] 숫자 만들기](./swea/4008.py)
+
