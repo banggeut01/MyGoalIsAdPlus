@@ -17,7 +17,6 @@ for tc in range(1, int(input()) + 1):
                 dfs(i, j)
     max_cnt, min_num = 0, N * N
     cnt = 1
-    # print(visit)
     for i in range(N * N, -1 , -1):
         if visit[i]:
             cnt += 1

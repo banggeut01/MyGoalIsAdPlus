@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65022d25-4c91-4d4e-9016-f920b46b1808" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/swea/1861.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swea/1861_teacher.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swea/2819.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hack/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/hack/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swea/1861_teacher.py" beforeDir="false" afterPath="$PROJECT_DIR$/swea/1861_teacher.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +58,7 @@
       <recent name="C:\Users\multicampus\Desktop\genie\MyGoalIsAdPlus\swea" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.1861_teacher">
+  <component name="RunManager" selected="Python.2819">
     <configuration name="1861" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MyGoalIsAdPlus" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -123,7 +122,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="4008" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="2819" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MyGoalIsAdPlus" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -135,7 +134,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/swea/4008.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/swea/2819.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -167,18 +166,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.1952" />
-      <item itemvalue="Python.4008" />
       <item itemvalue="Python.test" />
       <item itemvalue="Python.1861" />
       <item itemvalue="Python.1861_teacher" />
+      <item itemvalue="Python.2819" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.2819" />
         <item itemvalue="Python.1861_teacher" />
         <item itemvalue="Python.1861" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.1952" />
-        <item itemvalue="Python.4008" />
       </list>
     </recent_temporary>
   </component>
@@ -221,22 +220,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1156" y="149" key="#16985/0.0.1920.1040@0.0.1920.1040" timestamp="1579348731727" />
-    <state width="1048" height="375" key="GridCell.Tab.0.bottom" timestamp="1583323491266">
+    <state width="1048" height="353" key="GridCell.Tab.0.bottom" timestamp="1583324471368">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1048" height="375" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583323491266" />
-    <state width="1048" height="375" key="GridCell.Tab.0.center" timestamp="1583323491266">
+    <state width="1048" height="353" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583324471368" />
+    <state width="1048" height="353" key="GridCell.Tab.0.center" timestamp="1583324471367">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1048" height="375" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583323491266" />
-    <state width="1048" height="375" key="GridCell.Tab.0.left" timestamp="1583323491266">
+    <state width="1048" height="353" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583324471367" />
+    <state width="1048" height="353" key="GridCell.Tab.0.left" timestamp="1583324471367">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1048" height="375" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583323491266" />
-    <state width="1048" height="375" key="GridCell.Tab.0.right" timestamp="1583323491266">
+    <state width="1048" height="353" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583324471367" />
+    <state width="1048" height="353" key="GridCell.Tab.0.right" timestamp="1583324471367">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1048" height="375" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583323491266" />
+    <state width="1048" height="353" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583324471367" />
     <state width="1048" height="375" key="GridCell.Tab.1.bottom" timestamp="1583323491267">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -257,10 +256,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1582633140832" />
-    <state x="657" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1583317243998">
+    <state x="657" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1583324427668">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="657" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583317243998" />
+    <state x="657" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583324427668" />
     <state x="1096" y="190" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1579873784541">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -535,7 +534,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/swea/1861_teacher.py</url>
-          <line>20</line>
+          <line>19</line>
           <option name="timeStamp" value="129" />
         </line-breakpoint>
       </breakpoints>
