@@ -1,9 +1,5 @@
-
-
+# 1861.py 정사각형 방
 def back(x, y, k):
-    # global MAX, ANS
-    # if MAX < k: MAX, ANS = k, [init]
-    # elif MAX == k: ANS.append(init)
     D[initX][initY] = max(D[initX][initY], k)
     if k == N * N: return
 
@@ -17,17 +13,19 @@ def back(x, y, k):
             else:
                 D[initX][initY] = D[initX][initY] + D[nx][ny]
 
+
 for tc in range(1, int(input()) + 1):
     N = int(input())
     board = [list(map(int, input().split())) for _ in range(N)]
     MAX, ANS = 0, N * N
     D = [[0] * N for _ in range(N)]
+    visit = [[False] * N for _ in range(N)]
     for i in range(N):
         for j in range(N):
-                visit = [[False] * N for _ in range(N)]
-                visit[i][j] = True
-                initX, initY = i, j
-                back(i, j, 1)
+            visit[i][j] = True
+            initX, initY = i, j
+            back(i, j, 1)
+            visit[i][j] = False
     for i in range(N):
         for j in range(N):
             if D[i][j] > MAX:

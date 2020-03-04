@@ -722,12 +722,70 @@
 
 [1952. [모의 SW 역량테스트] 수영장](./swea/1952.py)
 
-- 
+[1861. 정사각형 방](./swea/1861.py) [선생님 풀이](./swea/1861_teacher.py)
+
+* 한번 갔던 블럭은 더 갈 필요가 없음
+
+* 블럭의 이동 개수를 저장하는 2차원 리스트 `D`사용
+
+* 제한시간 초과
+
+  * `visit` 리스트를 매번 새로 선언해서 사용했으나, 백트래킹이기 때문에 그럴 필요가 없다.
+
+  * :rainbow: 새로 변수를 할당하는 것만으로도 시간초과가 날 수 있다는 것을 배우게 되었다.
+
+  * 해결
+
+    ```python
+    # 수정전
+    for i in range(N):
+        for j in range(N):
+            visit = [[False] * N for _ in range(N)]
+            visit[i][j] = True
+            initX, initY = i, j
+            back(i, j, 1)
     
+    # 수정후
+    visit = [[False] * N for _ in range(N)]
+    for i in range(N):
+        for j in range(N):
+            visit[i][j] = True
+            initX, initY = i, j
+            back(i, j, 1)
+            visit[i][j] = False
+    ```
 
-](./swea/4008.py)
+  * 선생님 풀이
 
+    * visit를 1 ~ N*N 만큼 선언해주고,
 
+    * 새로운 좌표를 방문할 때 그 숫자에 1을 넣어준다.
+
+    * 만약 2, 3, 4를 방문한다면
+
+      ```
+      N = 3
+      visit (0 ~ 9)
+      0, 0, 0, 1, 1, 0, ..., 0
+      ```
+
+    * 만약 5, 6을 방문한다면
+
+      ```
+      visit (0 ~ 9)
+      0, 0, 0, 0, 0, 0, 1, 0, ..., 0
+      ```
+
+    * 결과적으로
+
+      ```
+      visit (0 ~ 9)
+      0, 0, 0, 1, 1, 0, 1, 0, ..., 0
+      ```
+
+      위와 같은 visit가 된다.
+
+    * 이 때 연속한 1의 개수 + 1이 제일 긴 값이 답이된다.
 
 :heavy_check_mark: SWEA Python A+ 대비반
 
