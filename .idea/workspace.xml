@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65022d25-4c91-4d4e-9016-f920b46b1808" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/swea/1953_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swea/5658_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swea/4012.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swea/5656_2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -19,14 +19,6 @@
         <option value="Python Script" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>True</find>
-      <find>cnt</find>
-      <find>print</find>
-      <find>board</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -58,28 +50,7 @@
       <recent name="C:\Users\multicampus\Desktop\genie\MyGoalIsAdPlus\swea" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.1953_2">
-    <configuration name="1861_teacher" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="MyGoalIsAdPlus" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/swea" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/swea/1861_teacher.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.5656_2">
     <configuration name="1953_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MyGoalIsAdPlus" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -101,27 +72,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="2819" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="MyGoalIsAdPlus" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/swea" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/swea/2819.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="3752" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MyGoalIsAdPlus" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -135,6 +85,48 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/swea/3752.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="4012" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MyGoalIsAdPlus" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/swea" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/swea/4012.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="5656_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MyGoalIsAdPlus" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/swea" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/swea/5656_2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -165,19 +157,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.1861_teacher" />
-      <item itemvalue="Python.2819" />
       <item itemvalue="Python.3752" />
       <item itemvalue="Python.5658_2" />
       <item itemvalue="Python.1953_2" />
+      <item itemvalue="Python.4012" />
+      <item itemvalue="Python.5656_2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.5656_2" />
+        <item itemvalue="Python.4012" />
         <item itemvalue="Python.1953_2" />
         <item itemvalue="Python.5658_2" />
         <item itemvalue="Python.3752" />
-        <item itemvalue="Python.2819" />
-        <item itemvalue="Python.1861_teacher" />
       </list>
     </recent_temporary>
   </component>
@@ -220,38 +212,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1156" y="149" key="#16985/0.0.1920.1040@0.0.1920.1040" timestamp="1579348731727" />
-    <state width="947" height="353" key="GridCell.Tab.0.bottom" timestamp="1583418578672">
+    <state width="947" height="353" key="GridCell.Tab.0.bottom" timestamp="1583425368360">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="947" height="353" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583418578672" />
-    <state width="947" height="353" key="GridCell.Tab.0.center" timestamp="1583418578672">
+    <state width="947" height="353" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583425368360" />
+    <state width="947" height="353" key="GridCell.Tab.0.center" timestamp="1583425368360">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="947" height="353" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583418578672" />
-    <state width="947" height="353" key="GridCell.Tab.0.left" timestamp="1583418578672">
+    <state width="947" height="353" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583425368360" />
+    <state width="947" height="353" key="GridCell.Tab.0.left" timestamp="1583425368360">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="947" height="353" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583418578672" />
-    <state width="947" height="353" key="GridCell.Tab.0.right" timestamp="1583418578672">
+    <state width="947" height="353" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583425368360" />
+    <state width="947" height="353" key="GridCell.Tab.0.right" timestamp="1583425368360">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="947" height="353" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583418578672" />
-    <state width="1048" height="375" key="GridCell.Tab.1.bottom" timestamp="1583411864703">
+    <state width="947" height="353" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583425368360" />
+    <state width="947" height="375" key="GridCell.Tab.1.bottom" timestamp="1583425122561">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1048" height="375" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583411864703" />
-    <state width="1048" height="375" key="GridCell.Tab.1.center" timestamp="1583411864703">
+    <state width="947" height="375" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583425122561" />
+    <state width="947" height="375" key="GridCell.Tab.1.center" timestamp="1583425122561">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1048" height="375" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583411864703" />
-    <state width="1048" height="375" key="GridCell.Tab.1.left" timestamp="1583411864702">
+    <state width="947" height="375" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583425122561" />
+    <state width="947" height="375" key="GridCell.Tab.1.left" timestamp="1583425122561">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1048" height="375" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583411864702" />
-    <state width="1048" height="375" key="GridCell.Tab.1.right" timestamp="1583411864703">
+    <state width="947" height="375" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583425122561" />
+    <state width="947" height="375" key="GridCell.Tab.1.right" timestamp="1583425122561">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1048" height="375" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583411864703" />
+    <state width="947" height="375" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583425122561" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1582633140832">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -537,8 +529,28 @@
           <line>19</line>
           <option name="timeStamp" value="129" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/swea/5656_2.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="val" language="Python" />
+        <watch expression="dq" language="Python" />
+        <watch expression="-1 &lt; ny + dy &lt; W" language="Python" />
+        <watch expression="-1 &lt; nx + dx &lt; H" language="Python" />
+        <watch expression="nval &gt; 1" language="Python" />
+        <watch expression="dq" language="Python" />
+        <watch expression="B[nx][ny]" language="Python" />
+        <watch expression="selected" language="Python" />
+        <watch expression="val" language="Python" />
+        <watch expression="nval" language="Python" />
+        <watch expression="selected[t]" language="Python" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="masterDetails">
     <states>
