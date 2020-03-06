@@ -803,3 +803,37 @@
 
 [1949. [모의 SW 역량테스트] 등산로 조성](./swea/1949_2.py)
 
+
+
+:heavy_check_mark: 백준
+
+[2589. 보물섬](./baek/2589.py) / [문제](https://www.acmicpc.net/problem/2589)
+
+* 재채점 결과 틀렸습니다.
+* 
+
+dictionary 알아둘 점!
+
+```python
+a = {1: 1, 2: 2}
+for x in a:
+...    print(a.pop(x)) 
+...    
+1
+Traceback (most recent call last):
+  File "<input>", line 1, in <module>
+RuntimeError: dictionary changed size during iteration
+```
+
+* 딕셔너리 키로 접근시 딕셔너리 원소 값을 빼거나 삽입할 수 없다.
+* 따라서 queue로서 사용시에 새로운 dictionary를 선언해서 업데이트하는 것이 낫다.
+
+* deque나 list는 아래와 같이 가능하다.
+
+```python
+for _ in range(len(dq)): # for문 시작될 때 길이가 정해진다. => 고정
+    dq.popleft()
+    if isPossible():
+        dq.append(example)
+```
+
