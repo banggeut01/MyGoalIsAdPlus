@@ -847,7 +847,7 @@ for _ in range(len(dq)): # for문 시작될 때 길이가 정해진다. => 고�
 
 [배열합치기](https://level.goorm.io/exam/43250/%EB%B0%B0%EC%97%B4-%ED%95%A9%EC%B9%98%EA%B8%B0/quiz/1)
 
-[다익스트라 알고리즘(Dijkstra's Algorithm)](https://level.goorm.io/exam/43211/%EB%8B%A4%EC%9D%B5%EC%8A%A4%ED%8A%B8%EB%9D%BC-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-dijkstra-s-algorithm/quiz/1)
+[다익스트라 알고리즘(Dijkstra's Algorithm)](https://level.goorm.io/exam/43211/%EB%8B%A4%EC%9D%B5%EC%8A%A4%ED%8A%B8%EB%9D%BC-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-dijkstra-s-algorithm/quiz/1) [코드](./goorm/dijkstra.py)
 
 * [유튜브 - 다익스트라 알고리즘](https://www.youtube.com/watch?v=611B-9zk2o4)
 
@@ -861,5 +861,12 @@ for _ in range(len(dq)): # for문 시작될 때 길이가 정해진다. => 고�
 
     -> 입력으로 받으면서 최소값으로 업데이트!
 
-https://level.goorm.io/exam/43260/2%EA%B0%9C%EC%9D%98-%EA%B3%84%EB%9E%80/quiz/1
+[2개의 계란](https://level.goorm.io/exam/43260/2%EA%B0%9C%EC%9D%98-%EA%B3%84%EB%9E%80/quiz/1)
+
+:heavy_check_mark: 
+
+* [스티커 붙이기](https://www.acmicpc.net/problem/18808) [코드](./baek/18808.py)
+* 
+
+* [Gaaaaaaaaaarden](https://www.acmicpc.net/problem/18809) [코드](./baek/18809.py)
 
