@@ -861,7 +861,7 @@ for _ in range(len(dq)): # for문 시작될 때 길이가 정해진다. => 고�
 
     -> 입력으로 받으면서 최소값으로 업데이트!
 
-[2개의 계란](https://level.goorm.io/exam/43260/2%EA%B0%9C%EC%9D%98-%EA%B3%84%EB%9E%80/quiz/1)
+[2개의 계란](https://level.goorm.io/exam/43260/2%EA%B0%9C%EC%9D%98-%EA%B3%84%EB%9E%80/quiz/1) 아직 못품!!!
 
 * 복잡하게 생각하지 말아보자
 * 밑에 층에서부터 차례대로 올라가며 답 갱신!
@@ -869,10 +869,10 @@ for _ in range(len(dq)): # for문 시작될 때 길이가 정해진다. => 고�
 * 재귀 호출해보기
 * 2개 다 깨졌을 경우 return!
 
-:heavy_check_mark: 
+:heavy_check_mark: 백준
 
 * [스티커 붙이기](https://www.acmicpc.net/problem/18808) [코드](./baek/18808.py)
-* 
 
-* [Gaaaaaaaaaarden](https://www.acmicpc.net/problem/18809) [코드](./baek/18809.py)
+  
+* [Gaaaaaaaaaarden](https://www.acmicpc.net/problem/18809) [코드](./baek/18809.py) 꼭 한번 다시 풀어보기!!! :rainbow_flag:
 
