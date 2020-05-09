@@ -873,6 +873,11 @@ for _ in range(len(dq)): # for문 시작될 때 길이가 정해진다. => 고�
 
 * [스티커 붙이기](https://www.acmicpc.net/problem/18808) [코드](./baek/18808.py)
 
-  
 * [Gaaaaaaaaaarden](https://www.acmicpc.net/problem/18809) [코드](./baek/18809.py) 꼭 한번 다시 풀어보기!!! :rainbow_flag:
+
+# :star: 10주차
+
+:heavy_check_mark: 프로그래머스 2019 카카오 개발자 겨울 인턴십
+
+* [64062. 징검다리 건너기](./prog/64062.py)
 
