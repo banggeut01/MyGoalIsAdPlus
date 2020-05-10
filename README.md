@@ -881,3 +881,18 @@ for _ in range(len(dq)): # for문 시작될 때 길이가 정해진다. => 고�
 
 * [64062. 징검다리 건너기](./prog/64062.py)
 
+* [42841. 문자열 압축](./js/42841.js)
+
+  * 5번 테스트케이스 틀림
+
+    ```JS
+    var answer = 0xffffff // 수정전
+    var answer = s.length; // 수정후
+        for (var i = 1; i <= parseInt(s.length / 2); i++) {
+            ...
+        }
+    ```
+
+    * 문제점 ) 수정 전 s값을 길이가 1인 문자열로 주게되면 답이 0xffffff이 나오게 된다.
+    * 원인 ) for문에서 `s.length / 2` 이기 때문이다.
+    * 해결법 ) 초기값을 `s.length`로 준다.
