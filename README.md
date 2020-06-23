@@ -1085,3 +1085,65 @@ answer: 20
 * board에 변화가 있을때만 답인지 확인하기!
 
 [15685. 드래곤 커브](./gogoss/15685.py)
+
+[17837. 새로운 게임 2](./gogoss/17837.py)
+
+[17779. 게리맨더링 2](./gogoss/17779.py)
+
+* 각각의 선거구 수를 다 구해주었는데 5는 구하기 힘들다.
+* 1~4 선거구까지 구한 후 전체로부터 5를 구한다.
+
+[17142. 연구소 3](./gogoss/17142.py)
+
+* 답 틀릴때 조건문 제대로 썼는지 확인하기
+
+```python
+# 0이거나 2이다. 1과 3이 아니다.
+# 수정전
+not B[nx][ny] and B[nx][ny] != 3
+# 수정후
+B[nx][ny] != 1 and B[nx][ny] != 3
+not B[nx][ny] or B[nx][ny] != 3
+```
+
+[17140. 이차원 배열과 연산](./17140.py)
+
+[17143. 낚시왕](./gogoss/17143.py)
+
+* dictionary 꺼낼때 pop, for key, val 접근시 items()잊기 말기
+
+[17144. 미세먼지 안녕!](./gogoss/17144.py)
+
+[16236. 아기 상어](./gogoss/16236.py)
+
+[16235. 나무 재테크](./gogoss/16235.py)
+
+* 실수 ) 선후 관계 조심하기
+
+```python
+# 수정전
+board[i][j][idx] += 1
+food[i][j] -= board[i][j][idx]
+
+# 수정후
+food[i][j] -= board[i][j][idx]
+board[i][j][idx] += 1
+```
+
+
+
+[16234. 인구 이동](./gogoss/16234.py)
+
+
+
+# :star: 13주차 
+
+:heavy_check_mark: 프로그래머스
+
+> DFS / BFS
+
+[43165. 타겟 넘버](./prog/43165.py) / [문제](https://programmers.co.kr/learn/courses/30/lessons/43165)
+
+[43162. 네트워크](./prog/43162.py) / [문제](https://programmers.co.kr/learn/courses/30/lessons/43162)
+
+[43163. 단어 변환](./prog/43163.py) / [문제](https://programmers.co.kr/learn/courses/30/lessons/43163)
