@@ -1147,3 +1147,27 @@ board[i][j][idx] += 1
 [43162. 네트워크](./prog/43162.py) / [문제](https://programmers.co.kr/learn/courses/30/lessons/43162)
 
 [43163. 단어 변환](./prog/43163.py) / [문제](https://programmers.co.kr/learn/courses/30/lessons/43163)
+
+:heavy_check_mark: 백준
+
+[19238. 스타트택시](./baek/19238.py)
+
+* 런타임 에러
+
+  `collections`를 `_collections`로 잘못 씀
+
+* 틀렸습니다.
+
+  * 문제를 잘 읽자!
+    * 같은 거리인 경우, 행, 열 작은 순위!
+  * 목적지로 도착하지 못하는 경우를 처리해주지 않음
+    * 조건 추가
+
+  ```python
+  # 전
+  if dist > G: break
+  # 후
+  if dist2 == -1 or dist > G: break
+  ```
+
+  

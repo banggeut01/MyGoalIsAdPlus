@@ -2,176 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65022d25-4c91-4d4e-9016-f920b46b1808" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/gogoss/13460.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gogoss/16234.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gogoss/16235.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gogoss/16236.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gogoss/17140.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gogoss/17142.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gogoss/17143.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gogoss/17144.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gogoss/17779.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gogoss/17837.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prog/43162.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prog/43163.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prog/43165.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baek/19238.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/MyGoalIsAdPlus.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MyGoalIsAdPlus.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/venv/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-172717485">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="32" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.3" value="5" />
-          <entry key="project.open.time.4" value="8" />
-          <entry key="project.open.time.5" value="8" />
-          <entry key="project.open.time.6" value="8" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.open.time.8" value="2" />
-          <entry key="project.opened" value="33" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="e1" value="1" />
-          <entry key="py" value="102" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="102" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="Python Console" value="1310" />
-          <entry key="dummy" value="1" />
-          <entry key="e1" value="5" />
-          <entry key="py" value="65450" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="PLAIN_TEXT" value="6" />
-          <entry key="Python" value="66760" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/swea/2105_2.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gogoss/17143.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gogoss/17144.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="741">
-              <caret line="39" column="42" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
-              <folding>
-                <marker date="1591415050135" expanded="true" signature="632:887" ph="..." />
-                <marker date="1591415050135" expanded="true" signature="1159:2041" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gogoss/16236.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="684">
-              <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gogoss/16235.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="45" selection-start-line="16" selection-start-column="24" selection-end-line="17" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gogoss/16234.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
-              <folding>
-                <marker date="1591433959733" expanded="true" signature="57:627" ph="..." />
-                <marker date="1591433959733" expanded="true" signature="640:1036" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gogoss/13460.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
-              <folding>
-                <marker date="1591573716874" expanded="true" signature="30:263" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/prog/43165.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/prog/43162.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-              <folding>
-                <marker date="1592278555079" expanded="true" signature="15:16" ph="..." />
-                <marker date="1592278555079" expanded="true" signature="75:182" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/prog/43163.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -200,103 +39,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/test/e3-2.py" />
-        <option value="$PROJECT_DIR$/test/e3-4.py" />
-        <option value="$PROJECT_DIR$/baek/18809_2.py" />
-        <option value="$PROJECT_DIR$/baek/18809.py" />
-        <option value="$PROJECT_DIR$/prog/17683.py" />
-        <option value="$PROJECT_DIR$/test/jy.py" />
-        <option value="$PROJECT_DIR$/prog/17683_2.py" />
-        <option value="$PROJECT_DIR$/prog/17683_3.py" />
-        <option value="$PROJECT_DIR$/test/moo.py" />
-        <option value="$PROJECT_DIR$/prog/64062.py" />
-        <option value="$PROJECT_DIR$/test/hk3.py" />
-        <option value="$PROJECT_DIR$/test/hk4.py" />
-        <option value="$PROJECT_DIR$/test/hk1.py" />
-        <option value="$PROJECT_DIR$/test/hk2.py" />
-        <option value="$PROJECT_DIR$/test/ka1.py" />
-        <option value="$PROJECT_DIR$/test/ka3_1.py" />
-        <option value="$PROJECT_DIR$/test/ka4.py" />
-        <option value="$PROJECT_DIR$/test/ka5.py" />
-        <option value="$PROJECT_DIR$/test/ka2.py" />
-        <option value="$PROJECT_DIR$/test/ka4_1.py" />
-        <option value="$PROJECT_DIR$/test/ka3.py" />
-        <option value="$PROJECT_DIR$/test/ka2_1.py" />
-        <option value="$PROJECT_DIR$/test/1932.py" />
-        <option value="$PROJECT_DIR$/baek/2151.py" />
-        <option value="$PROJECT_DIR$/baek/2579_fail.py" />
-        <option value="$PROJECT_DIR$/baek/2579.py" />
-        <option value="$PROJECT_DIR$/baek/1938.py" />
-        <option value="$PROJECT_DIR$/baek/6087.py" />
-        <option value="$PROJECT_DIR$/test/mtosecond.py" />
-        <option value="$PROJECT_DIR$/baek/9019_fail.py" />
-        <option value="$PROJECT_DIR$/baek/9019.py" />
-        <option value="$PROJECT_DIR$/baek/2468.py" />
-        <option value="$PROJECT_DIR$/baek/17825.py" />
-        <option value="$PROJECT_DIR$/baek/3954.py" />
-        <option value="$PROJECT_DIR$/baek/9328.py" />
-        <option value="$PROJECT_DIR$/gogoss/15684.py" />
-        <option value="$PROJECT_DIR$/gogoss/15685.py" />
-        <option value="$PROJECT_DIR$/gogoss/17837.py" />
-        <option value="$PROJECT_DIR$/gogoss/17779.py" />
-        <option value="$PROJECT_DIR$/gogoss/17142.py" />
-        <option value="$PROJECT_DIR$/gogoss/17140.py" />
-        <option value="$PROJECT_DIR$/gogoss/17143.py" />
-        <option value="$PROJECT_DIR$/gogoss/17144.py" />
-        <option value="$PROJECT_DIR$/gogoss/16236.py" />
-        <option value="$PROJECT_DIR$/gogoss/16235.py" />
-        <option value="$PROJECT_DIR$/gogoss/16234.py" />
-        <option value="$PROJECT_DIR$/gogoss/13460.py" />
-        <option value="$PROJECT_DIR$/prog/43165.py" />
-        <option value="$PROJECT_DIR$/prog/4316.py" />
-        <option value="$PROJECT_DIR$/prog/43162.py" />
-        <option value="$PROJECT_DIR$/prog/43163.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="952" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
-  </component>
   <component name="ProjectId" id="1WZEErqg88IQ3rClgm8E7PA78JU" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="MyGoalIsAdPlus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyGoalIsAdPlus" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyGoalIsAdPlus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyGoalIsAdPlus" type="462c0819:PsiDirectoryNode" />
-              <item name="hack" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyGoalIsAdPlus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyGoalIsAdPlus" type="462c0819:PsiDirectoryNode" />
-              <item name="prog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyGoalIsAdPlus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyGoalIsAdPlus" type="462c0819:PsiDirectoryNode" />
-              <item name="swea" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
-  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -325,19 +68,7 @@
       <recent name="C:\Users\multicampus\Desktop\genie\MyGoalIsAdPlus\swea" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.43162">
+  <component name="RunManager" selected="Python.19238">
     <configuration name="16234" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MyGoalIsAdPlus" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -380,7 +111,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="16236" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="19238" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MyGoalIsAdPlus" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -388,11 +119,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gogoss" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/baek" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gogoss/16236.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baek/19238.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -444,19 +175,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.16236" />
       <item itemvalue="Python.16235" />
       <item itemvalue="Python.16234" />
       <item itemvalue="Python.43165" />
       <item itemvalue="Python.43162" />
+      <item itemvalue="Python.19238" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.19238" />
         <item itemvalue="Python.43162" />
         <item itemvalue="Python.43165" />
         <item itemvalue="Python.16234" />
         <item itemvalue="Python.16235" />
-        <item itemvalue="Python.16236" />
       </list>
     </recent_temporary>
   </component>
@@ -494,103 +225,43 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="762" y="0" width="781" height="830" extended-state="0" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23252688" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32902297" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.35733333" side_tool="true" weight="0.33764368" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.64266664" weight="0.33764368" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.5148515" weight="0.2801724" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.113689095" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5027069" side_tool="true" visible="true" weight="0.48710603" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49638057" weight="0.3452722" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.4972931" visible="true" weight="0.48710603" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout-to-restore>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="WindowStateProjectService">
-    <state x="1156" y="149" key="#16985" timestamp="1579348731727">
+    <state width="936" height="351" key="GridCell.Tab.0.bottom" timestamp="1593779259966">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1156" y="149" key="#16985/0.0.1920.1040@0.0.1920.1040" timestamp="1579348731727" />
-    <state width="947" height="375" key="GridCell.Tab.0.bottom" timestamp="1583484758258">
+    <state width="936" height="351" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593779259966" />
+    <state width="936" height="351" key="GridCell.Tab.0.center" timestamp="1593779259966">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="947" height="375" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583484758258" />
-    <state width="947" height="375" key="GridCell.Tab.0.center" timestamp="1583484758257">
+    <state width="936" height="351" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593779259966" />
+    <state width="936" height="351" key="GridCell.Tab.0.left" timestamp="1593779259966">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="947" height="375" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583484758257" />
-    <state width="947" height="375" key="GridCell.Tab.0.left" timestamp="1583484758257">
+    <state width="936" height="351" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593779259966" />
+    <state width="936" height="351" key="GridCell.Tab.0.right" timestamp="1593779259966">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="947" height="375" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583484758257" />
-    <state width="947" height="375" key="GridCell.Tab.0.right" timestamp="1583484758257">
+    <state width="936" height="351" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593779259966" />
+    <state width="936" height="378" key="GridCell.Tab.1.bottom" timestamp="1593778328656">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="947" height="375" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583484758257" />
-    <state width="947" height="375" key="GridCell.Tab.1.bottom" timestamp="1583484758258">
+    <state width="936" height="378" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593778328656" />
+    <state width="936" height="378" key="GridCell.Tab.1.center" timestamp="1593778328656">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="947" height="375" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583484758258" />
-    <state width="947" height="375" key="GridCell.Tab.1.center" timestamp="1583484758258">
+    <state width="936" height="378" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593778328656" />
+    <state width="936" height="378" key="GridCell.Tab.1.left" timestamp="1593778328656">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="947" height="375" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583484758258" />
-    <state width="947" height="375" key="GridCell.Tab.1.left" timestamp="1583484758258">
+    <state width="936" height="378" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593778328656" />
+    <state width="936" height="378" key="GridCell.Tab.1.right" timestamp="1593778328656">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="947" height="375" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583484758258" />
-    <state width="947" height="375" key="GridCell.Tab.1.right" timestamp="1583484758258">
+    <state width="936" height="378" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593778328656" />
+    <state x="841" y="187" key="SettingsEditor" timestamp="1593775563153">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="947" height="375" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583484758258" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1582633140832">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1582633140832" />
-    <state x="657" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1583449543332">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="657" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583449543332" />
-    <state x="1096" y="190" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1579873784541">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1096" y="190" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1579873784541" />
-    <state x="1106" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1583483013966">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1106" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1583483013966" />
+    <state x="841" y="187" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1593775563153" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1085,6 +756,21 @@
           <line>7</line>
           <option name="timeStamp" value="272" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/baek/19238.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="273" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/baek/19238.py</url>
+          <line>58</line>
+          <option name="timeStamp" value="274" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/baek/19238.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="275" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -1164,372 +850,6 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/e3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-          <folding>
-            <marker date="1587187306806" expanded="true" signature="67:919" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/hk2.py" />
-    <entry file="file://$PROJECT_DIR$/test/hk1.py" />
-    <entry file="file://$PROJECT_DIR$/prog/64062.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/ka4_1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baek/9019.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="39" column="29" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baek/9019_fail.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baek/6087.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-          <folding>
-            <marker date="1589421274354" expanded="true" signature="53:112" ph="..." />
-            <marker date="1589421274354" expanded="true" signature="141:171" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baek/17825.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/mtosecond.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/ka2_1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baek/3954.py" />
-    <entry file="file://$PROJECT_DIR$/test/ka1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baek/11559.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/ka3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/ka2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baek/9328.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-          <folding>
-            <marker date="1590717470621" expanded="true" signature="117:202" ph="..." />
-            <marker date="1590717470621" expanded="true" signature="241:2567" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gogoss/17837.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="29" selection-end-line="76" selection-end-column="17" />
-          <folding>
-            <marker date="1591333814117" expanded="true" signature="53:273" ph="..." />
-            <marker date="1591333814117" expanded="true" signature="288:2779" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/Python35/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5852">
-          <caret line="308" selection-start-line="308" selection-end-line="308" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gogoss/15684.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-          <folding>
-            <marker date="1591274789945" expanded="true" signature="986:987" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gogoss/15685.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="22" selection-end-line="30" selection-end-column="10" />
-          <folding>
-            <marker date="1591277397127" expanded="true" signature="38:220" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/Python35/Lib/urllib/parse.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13357">
-          <caret line="705" selection-start-line="705" selection-end-line="705" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/e3-2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/ka3_1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/ka4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/ka5.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gogoss/17779.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="48" column="18" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gogoss/17142.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="52" column="14" lean-forward="true" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="14" />
-          <folding>
-            <element signature="e#17#28#0" expanded="true" />
-            <marker date="1591369780526" expanded="true" signature="47:49" ph="..." />
-            <marker date="1591369780526" expanded="true" signature="74:789" ph="..." />
-            <marker date="1591369780526" expanded="true" signature="804:970" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gogoss/17140.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="43" column="12" lean-forward="true" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baek/1038.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baek/1062.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baek/1932.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baek/1938.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <marker date="1589386177495" expanded="true" signature="566:792" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baek/2151.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="39" column="46" selection-start-line="39" selection-start-column="46" selection-end-line="39" selection-end-column="46" />
-          <folding>
-            <marker date="1589239989564" expanded="true" signature="86:174" ph="..." />
-            <marker date="1589239989564" expanded="true" signature="1687:1689" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baek/2174.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baek/2468.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baek/2529.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baek/2579.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <marker date="1589370597102" expanded="true" signature="34:118" ph="..." />
-            <marker date="1589370597102" expanded="true" signature="34:423" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baek/2579_fail.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" selection-start-line="2" selection-end-line="19" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baek/2589.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/swea/2105_2.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gogoss/17143.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gogoss/17144.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="39" column="42" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
-          <folding>
-            <marker date="1591415050135" expanded="true" signature="632:887" ph="..." />
-            <marker date="1591415050135" expanded="true" signature="1159:2041" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gogoss/16236.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gogoss/16235.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="45" selection-start-line="16" selection-start-column="24" selection-end-line="17" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gogoss/16234.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
-          <folding>
-            <marker date="1591433959733" expanded="true" signature="57:627" ph="..." />
-            <marker date="1591433959733" expanded="true" signature="640:1036" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gogoss/13460.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <marker date="1591573716874" expanded="true" signature="30:263" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prog/43165.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prog/43162.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <marker date="1592278555079" expanded="true" signature="15:16" ph="..." />
-            <marker date="1592278555079" expanded="true" signature="75:182" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prog/43163.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="masterDetails">
     <states>
